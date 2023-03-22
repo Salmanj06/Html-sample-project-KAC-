@@ -183,10 +183,10 @@
 
 .container{
     width: 80vw;
-    height:80vh;
+    height:100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .header{
     width: 100%;
@@ -200,12 +200,13 @@
 .products{
     width: 100%;
     align-self: center;
-    height: 70%;
-    display:flex;
+    height: 60%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    overflow: auto;
 }
 .product{
     position: relative;
@@ -231,9 +232,7 @@
     place-content: center;
 }
 .image img{
-    width: 250px;
-    padding-bottom: 25vh;
-    padding-right: 10vh;
+    width: 240px;
 }
 .namePrice{
     width: 100%;
@@ -253,12 +252,9 @@
     font-size: 18px;
     line-height: 25px;
 }
-.stars{
+.stars svg{
     font-size: 1.3em;
-    color: black;
-}
-.checked{
-    color: #FFD700;
+    color: var(--starColor);
 }
 .bay{
     position: absolute;
@@ -269,8 +265,8 @@
     padding: 10px 20px;
     border-radius: 7px;
     border: none;
-    background-color:aquamarine;
-    color:black;
+    background-color: var(--textColor);
+    color: var(--sectionBack);
     font-size: 18px;
     text-transform: capitalize;
     cursor: pointer;
@@ -279,7 +275,14 @@
 .bay button:hover{
     transform: scale(1.1);
 }
-  
+#products .checked{
+    color: #FFD700;
+}
+
+
+#contact .row{
+    width: 80%;
+}
 form input[type=text] {
     border: 3px solid #ccc;
     -webkit-transition: 0.5s;
@@ -291,7 +294,6 @@ form input[type=text] {
     -webkit-transition: 0.5s;
     transition: 0.5s;
  }
-
 
 
 
