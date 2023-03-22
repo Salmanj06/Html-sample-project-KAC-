@@ -280,6 +280,20 @@
     transform: scale(1.1);
 }
   
+form input[type=text] {
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+}
+ form input[type=checkbox]{
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+ }
+
+
+
 
 @media screen and (max-width: 600px) {
     * {
