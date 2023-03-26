@@ -21,3 +21,10 @@ window.onscroll = function () {
     progress.style.height = progressHeight + "%";
 }
 
+$(document).ready(function(){
+    $('.counter').counterUp({
+      delay: 5,
+      time: 500
+    });
+  });
+
