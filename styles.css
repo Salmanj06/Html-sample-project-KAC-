@@ -175,12 +175,13 @@
         padding: 100px;
     }
 
-    #home h2 {
+    .home .wel h2 {
         position: relative;
         font-family: 'Nabla';
         font-size: 60px;
         letter-spacing: 2px;
         top: -290px;
+        text-align: center;
     }
 }
 .column {
@@ -192,8 +193,23 @@
   .row {
     margin: 0 -5px;
 }
-  
-#home img{
+
+.cft1 img{
+    width: 50px;
+   margin-left: 10vh;
+}
+
+.cft2 img{
+    width: 50px;
+    margin-left: 80vh;
+    
+}
+.cft3 img{
+    width: 50px;
+    margin-left: 150vh;
+   
+}
+#home .wrd{
    margin-top: -20vh;
    
 }
@@ -495,7 +511,8 @@ body {
   
   .foot {
     position:relative;
-    height:20vh;
+    height:10vh;
+    padding-top: 10vh;
     text-align:center;
     background-color: white;
     display: flex;
@@ -538,8 +555,23 @@ body {
 .insta{
     display: flex;
     gap: 10px;
+    padding-top: 2vh;
 }
-
+.loc {
+    display:flex;
+    gap: 10px;
+}
+.loc .fas{
+    margin-left: 1vh;
+    padding-top: 2vh;
+}
+.loc p{
+    padding-right: 25vh;
+    padding-top: 2vh;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
   /* Animation */
   
   .parallax2 > use {
