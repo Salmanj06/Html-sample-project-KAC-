@@ -322,27 +322,35 @@
 }
 
 .image .img1 {
-    width: 160px;
+    width: 180px;
     padding-bottom: 25vh;
-    padding-left: 3vh;
+    padding-top: 23vh;
+    padding-left: 1vh;
+    margin-right: 18vh;
 }
 
 .image .img2 {
     width: 200px;
     padding-bottom: 25vh;
-    padding-left: 3vh;
+    padding-top: 23vh;
+    padding-left: 1vh;
+    margin-right: 18vh;
 }
 
 .image .img3 {
     width: 150px;
     padding-bottom: 25vh;
-    padding-left: 3vh;
+    padding-left: 1vh;
+    padding-top: 23vh;
+    margin-right: 22vh;
 }
 
 .image .img4 {
     width: 150px;
     padding-bottom: 25vh;
-    padding-left: 3vh;
+    padding-left: 1vh;
+    padding-top: 23vh;
+    margin-right: 22vh;
 }
 
 .namePrice {
