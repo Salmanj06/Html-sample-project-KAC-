@@ -9,7 +9,7 @@ window.addEventListener('scroll', function () {
     let value = window.scrollY;
     grl1.style.marginLeft = value * -3 + 'px';
     grl2.style.marginLeft = value * 3.3 + 'px';
-    pot.style.marginTop = value * 2 + 'px';
+    pot.style.marginLeft = value * 0.5 + 'px';
     text.style.marginTop = value * 0.4 + 'px';
 })
 
