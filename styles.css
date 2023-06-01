@@ -175,10 +175,12 @@
         padding: 100px;
     }
 }
+
 .home{
     display: flex;
     flex-direction: column;
 }
+
 .welcome {
     width: 100%;
     padding-top: 8vh;
@@ -340,7 +342,9 @@ padding: 10px;
     text-transform: uppercase;
     color: var(--textColor);
 }
-
+#products{
+    
+}
 .products {
     width: 100%;
     align-self: center;
