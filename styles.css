@@ -471,8 +471,17 @@ padding: 10px;
 }
 
 /*   Contact   */
+
+#contact{
+    background-image: url(./images/Wave\ Line.svg);
+}
+
+#contact form{
+    background: white;
+   
+}
 #contact .row {
-    width: 80%;
+    width: 58%;
 }
 
 form input[type=text] {
